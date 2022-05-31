@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Z-Gold Application</string>
+
+    <string-array name="status">
+        <item>Keep</item>
+        <item>Wear</item>
+    </string-array>
+
+    <string name="messageWithLink"><a href="">Visit our developer website</a></string>
+
+</resources>
