@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Z-Gold Application</string>
+    <string name="app_name">Z-GOLD</string>
 
     <string-array name="status">
         <item>Keep</item>
