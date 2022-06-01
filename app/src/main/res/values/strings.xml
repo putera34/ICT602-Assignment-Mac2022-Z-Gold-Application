@@ -6,6 +6,6 @@
         <item>Wear</item>
     </string-array>
 
-    <string name="messageWithLink"><a href="">Visit our developer website</a></string>
+    <string name="messageWithLink"><a href="https://github.com/putera34/ICT602-Assignment-Mac2022-Z-Gold-Application">Visit our developer website</a></string>
 
 </resources>
