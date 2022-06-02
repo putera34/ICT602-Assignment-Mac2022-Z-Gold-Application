@@ -164,23 +164,6 @@
         app:srcCompat="@android:drawable/btn_star_big_on" />
 
     <TextView
-        android:id="@+id/textView13"
-        android:layout_width="338dp"
-        android:layout_height="40dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="@string/messageWithLink"
-        android:textAlignment="center"
-        android:textColor="#FF9800"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.575"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.917" />
-
-    <TextView
         android:id="@+id/textView14"
         android:layout_width="295dp"
         android:layout_height="28dp"
@@ -192,8 +175,22 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.977" />
+
+    <TextView
+        android:id="@+id/textViewLink"
+        android:layout_width="288dp"
+        android:layout_height="32dp"
+        android:text="@string/messageWithLink"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
